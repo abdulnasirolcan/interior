@@ -1,0 +1,116 @@
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 08 - PORTFOLIO */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.nogutt-col2 .item {width: 50%;}
+.grid-sizer {width: 0;}
+.nogutt-col3 .item {width: 33.3333%;}
+.nogutt-col4 .item {width: 25%;}
+.nogutt-col4 .item h4 {letter-spacing: 1px;}
+.nogutt-col5 .item {width: 20%;}
+.nogutt-col5 .item h4 {letter-spacing: 1px; font-size: 16px;}
+.nogutt-col5 .item h5 {font-size: 12px;}
+.filters-style-1 .but {margin: 0px 10px; padding: 5px 12px; border-radius: 15px; letter-spacing: 2px; transition:all 0.3s ease-in;-webkit-transition:all 0.3s ease-in;-moz-transition:all 0.3s ease-in;-o-transition:all 0.3s ease-in;-ms-transition:all 0.3s ease-in;}
+.filters-style-1 .but:hover {background: #fff;}
+.filters-style-1 .but.activbut {background: #fff;}
+
+.filters-style-2 .but {margin: 0px 10px; padding: 5px 12px; letter-spacing: 2px; transition:all 0.3s ease-in;-webkit-transition:all 0.3s ease-in;-moz-transition:all 0.3s ease-in;-o-transition:all 0.3s ease-in;-ms-transition:all 0.3s ease-in;}
+.filters-style-2 .but:hover {background: #fff; color: #fff;}
+.filters-style-2 .but.activbut {background: #fff; color: #fff;}
+.wide-portfolio .subtitle {padding-left: 50px;}
+.gutt-col2 .item {width: 48%; margin:1%;}
+.gutt-col3 .item {width: 31%; margin:1%;}
+.gutt-col4 .item {width: 23%; margin:1%;}
+.gutt-col5 .item {width: 19%; margin:0.5%;}
+.gutt-col5 .item h4 {font-size: 14px;}
+.gutt-col5 .item h5 {font-size: 12px;}
+.popup-gallery .item a {position: relative; width: 100%; float: left;}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 09 - PORTFOLIO DETAIL */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.project-nav {position: relative; float: left; width: 100%; margin: 0px 0px 120px;}
+.all-p {position: relative; float: none; display: inline-block; padding-top: 60px;}
+.project-nav a:hover {color: #fff;}
+.left-arrow-nav {position: absolute; left: 15px; top: 50%;}
+.left-arrow-nav span {font-size: 18px; font-weight: 300; text-transform: uppercase; line-height: 48px; position: relative; float: left;}
+.right-arrow-nav {position: absolute; right: 15px; top: 50%;}
+.right-arrow-nav span {font-size: 18px; font-weight: 300; text-transform: uppercase; line-height: 48px; position: relative; float: left;}
+.sec-title {position: absolute; left: 50px; bottom: 50px; width: 100%; text-align: left;}
+.wrapp-block {position: relative; width: 100%; padding: 80px 0px 40px;}
+.det-img {position: relative; float: left; width: 100%; padding-bottom: 30px;}
+.det-img img {width: 100%; height: auto;}
+.padd-40 {padding-bottom: 40px;}
+.padd-15 {padding: 15px;}
+
+.det-wrapp img {width: 100%; height: auto;}
+.fixed-detail-panel {position: relative; width: 360px; bottom: auto; top: auto; transition:all .2s ease-out;-webkit-transition:all .2s ease-out;-moz-transition:all .2s ease-out;-ms-transition:all .2s ease-out;}
+.fixed-detail-panel.fix {position: fixed; top: 0px;}
+
+.det-img:hover .layer-style-2 {opacity: 1;}
+.det-img:hover .layer-style-2 h4 {padding-bottom: 15px;}
+.det-img:hover .layer-style-2 span {padding-top: 0px;}
+.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {cursor: pointer!important;}
+
+
+.fillter-wrap .sort-b.active {color: #fff;}
+.fillter-wrap .sort-b.active span {text-decoration: line-through;}
+.item.disabled div {opacity: 0.1;}
+
+.sliphover .det-img {padding-bottom: 0px; margin-bottom: 30px;}
+.sliphover .item a {position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;}
+
+
+
+.left-filter .shop-chose-wrap {width: 100%; padding-bottom: 60px;}
+.left-filter .drop-wrap {width: 100%;}
+.left-filter .drop {min-width: 100%; outline: 2px solid #ebebeb; outline-offset: -2px;}
+.left-filter .shop-chose-wrap span {background: #fff;}
+.left-filter .price-bar b:first-child {position: absolute; left: 0px; top: -5px;}
+.left-filter .price-chose b:last-child {position: absolute; right: 0px; top: -5px;}
+.left-filter .price-bar {width: 100%;}
+.left-filter .price-chose {width: 100%; padding-top: 40px;}
+.left-filter .slider.slider-horizontal {width: 100%!important;}
+.left-filter .s-field {width: 100%; visibility: visible; opacity: 1;}
+.left-filter .search {width: 100%; margin-top: 80px;}
+
+.filter-drop button {width: 100%; position: relative; float: left; padding: 0px;}
+.filter-drop.shop-style button {padding-left: 10px;font-size: 13px;cursor: pointer;text-transform: capitalize;font-weight: 300;color: #fff;text-align: left;}
+.filter-drop.shop-style button:hover {background: #fff; color: #fff;}
+
+.map {position: relative; width: 100%;}
+.map-canvas {position: relative; width: 100%; height: 500px;}
+
+.tab-font-1{
+    color: #6c6c6c!important;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.tab-font-2{
+    color: #6c6c6c!important;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.tab-font-right{
+    color: #6c6c6c!important;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px!important;
+}
+
+button {outline: none; border: none; box-shadow: none; background: none;}
+.nav-tabs { border-bottom: none; }
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { border-width: 0; }
+.nav-tabs > li > a { border: none; color: #212121; }
+.nav-tabs > li.active > a, .nav-tabs > li > a:hover { border: none; color: #212121 !important; background: transparent; }
+.nav-tabs > li > a::after { content: ""; background: #212121; height: 2px; position: absolute; width: 100%; left: 0px; bottom: -1px; transition: all 250ms ease 0s; transform: scale(0); }
+.nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after { transform: scale(1); }
+.tab-nav > li > a::after { background: #212121 none repeat scroll 0% 0%; color: #212121; }
+.tab-pane { padding: 40px 0; }
+
+

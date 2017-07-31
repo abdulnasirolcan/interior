@@ -1,0 +1,275 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>INTERIOR</title>
+    <link rel="shortcut icon" href="~/assets/img/logo/favicon.png">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="~/assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="~/assets/font/font.css" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="~/assets/lib/font-awesome/css/font-awesome.min.css">
+    <link href="~/assets/css/slider/responsive-slider-parallax.css" rel="stylesheet">
+
+    <!-- Portfolio CSS -->
+    <link href="~/assets/css/porfolio/portfolio.css" rel="stylesheet" type="text/css"/>
+
+    <!-- Promo-product CSS -->
+    <link rel="stylesheet" href="~/assets/css/promo-product/animate.min.css">
+
+    <!-- hot-deal CSS -->
+    <link rel="stylesheet" href="~/assets/css/hot-deal/hot-deal-slider-parallax.css">
+
+    <!-- product-details -->
+    <link rel="stylesheet" href="~/assets/css/product-details/product-details.css">
+
+    <!-- scroll*-top CSS -->
+    <link rel="stylesheet" href="~/assets/css/scroll-top/scroll-top.css">
+
+
+    <!-- Main CSS -->
+    <link href="~/assets/css/main.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+
+
+<body id="scrollbar">
+
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button style="background: #eee;" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+
+                <div class="menu">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="menu-global menu-top"></span>
+                    <span class="menu-global menu-middle"></span>
+                    <span class="menu-global menu-bottom"></span>
+                </div>
+            </button>
+            <a class="navbar-brand page-scroll" href="@Url.Action("Index","Home")">
+                <img src="~/assets/img/logo/logo.png" alt="">
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul style="margin-top: 10px;" id="mainNavSeperator" class="nav-response navbar-nav navbar-right">
+                <li class="current_page_item">
+                    <a href="@Url.Action("index","Home")">Home</a>
+                </li>
+                <li>
+                    <a href="@Url.Action("index","Product")">Products</a>
+                </li>
+                <li>
+                    <a href="#History">Hıstory</a>
+                </li>
+                <li>
+                    <a href="#Showroom<">Showroom</a>
+                </li>
+                <li>
+                    <a href="#Contact">Contact</a>
+                </li>
+                <li class="margin-left-30 hidden-xs">
+                    <div class="search">
+                        <input class="search_box" type="checkbox" id="search_box">
+                        <label  class="icon-search fa fa-search" for="search_box"></label>
+                        <div class="search_form">
+                            <form action="#">
+                                <input type="text"><input type="submit" value="search">
+                            </form>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+    @RenderBody()
+
+<footer>
+    <div class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4  col-md-4 col-sm-4 col-xs-12">
+                    <h3>Contact us</h3>
+                    <div class="margin-top-10">
+                        <p>132A Bridge Road Richmond VIC<br>Australia.</p>
+                        <br>
+                        <p>Talk to us on 1300 132</p>
+                        <p>info@ınterior.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <h3>Useful ınformation</h3>
+                    <div class="margin-top-30">
+                        <div class="col-sm-6" style="padding: 0!important;">
+                            <ul>
+                                <li><a href="#" class="text-transform">Sales Terms</a></li>
+                                <li><a href="#" class="text-transform">Customer care</a></li>
+                                <li><a href="#" class="text-transform">Delivery</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6" style="padding: 0!important;">
+                            <ul>
+                                <li><a href="#">Archıtech accounts</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Exchanges & Returns</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+                    <h3>Let's stay ın touch!</h3>
+                    <div class="margin-top-20">
+                        <ul>
+                            <li>
+                                <p>Suscribe to know about our latest news. products and<br>special offers just for suscribers</p>
+                                <div class="input-group" style="margin-top: 20px;">
+                                    <input style="padding:20px;border-radius: inherit;" type="email" class="form-control" placeholder="your email address">
+                                    <span class="input-group-btn" style="">
+                                        <button class="btn btn-default" type="button"><i class="fa fa-paper-plane-o" style="color: #6c6c6c;padding:7px;" aria-hidden="true"></i></button>
+                                    </span>
+                                </div><!-- /input-group -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--/.row-->
+        </div>
+        <!--/.container-->
+    </div>
+    <!--/.footer-->
+
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <small>© Copyright ınterıor 2016. All right reserved. </small>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <ul class="social">
+                        <li><a href="#"> <i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"> <i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"> <i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"> <i class="fa fa-pinterest"></i></a> </li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <small>Terms & condıtıons / prıvarcy polıcy & cookıes. </small>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!--/.footer-bottom-->
+</footer>
+<a href="#" class="cd-top">Top</a>
+<!-- jQuery -->
+<script src="~/assets/lib/jquery/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="~/assets/lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="~/assets/js/slider/jquery.event.move.js"></script>
+<script src="~/assets/js/slider/responsive-slider.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+<!--  JavaScript Main -->
+<script src="~/assets/js/main.js"></script>
+
+<!--Portfolio-->
+<script src="~/assets/js/portfolio/isotope.pkgd.min.js"></script>
+<script src="~/assets/js/portfolio/jquery.sliphover.min.js"></script>
+<script src="~/assets/js/portfolio/jquery.animsition.min.js"></script>
+<script src="~/assets/js/portfolio/jquery.magnific-popup.min.js"></script>
+<script src="~/assets/js/portfolio/idangerous.swiper.min.js"></script>
+<script src="~/assets/js/portfolio/portfolio.js"></script>
+
+<!--Promo-product-->
+<script src='~/assets/js/promo-product/jquery.onscreen.min.js'></script>
+<script src='~/assets/js/promo-product/jquery.viewport.mini.js'></script>
+
+<!--scroll-top-->
+<script src='~/assets/js/scroll-top/modernizr.js'></script>
+<script src='~/assets/js/scroll-top/scroll-top.js'></script>
+
+<!--trendig-product-->
+<script src="~/assets/js/trending-product/jquery.smoove.min.js"></script>
+
+<!--Window Scroll bar-->
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+<!--Product-Details-Slider-->
+<script src="~/assets/js/product-details/product-details.js"></script>
+
+<!--Product-Product-Details-Seperator-->
+<script src="~/assets/js/product-details/product-seperator.js"></script>
+
+<script>
+    $(document).ready(function () {
+        if (!$.browser.webkit) {
+            $('.wrapper').html('<p>Sorry! Non webkit users. :(</p>');
+        }
+    });
+    </script>
+
+<!--css3Animations promo-product-->
+<script>
+    window.sr = ScrollReveal();
+    sr.reveal('.right-animation', {
+
+        duration: 1000,
+        beforeReveal: function () {
+            $(".right-animation").addClass("animated fadeInRight");
+        },
+        afterReveal: function(){
+            $(".right-animation").removeClass('animated fadeInRight');
+        }
+    });
+
+    sr.reveal('.left-animation', {
+
+        duration: 1000,
+        beforeReveal: function () {
+            $(".left-animation").addClass("animated fadeInLeft");
+        },
+        afterReveal: function(){
+            $(".left-animation").removeClass('animated fadeInLeft');
+        }
+    });
+</script>
+<!--trending-product-->
+<script>$('.det-block').smoove({offset:'40%'});</script>
+
+</body>
+
+</html>
+
